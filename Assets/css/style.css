@@ -92,39 +92,33 @@ h1 {
 
 
 #hangman {
-  float: left;
-  border: 400px;
-  width: 50%;
+  width: 40%;
   padding: 50px;
-
+  margin: 20px;
 }
 
 #rpg game {
-  float: left;
-  border: 400px;
-  width: 50%;
+  width: 40%;
   padding: 50px;
+  margin: 30px;
 }
 
 #trivia game { 
-  float: left;
-  border: 400px;
-  width: 50%;
+  width: 40%;
   padding: 50px;
+  margin: 30px;
 } 
 
 #rutgers info widget {
-  float: left;
-  border: 400px;
-  width: 50%;
+  width: 40%;
   padding: 50px;
+  margin: 30px;
 }
 
 #rock paper scissors {
-  clear: both;
-  border: 400px;
-  width: 50%;
+  width: 40%;
   padding: 20px;
+  margin: 30px;
 }
 .footer {
   text-align: center;
