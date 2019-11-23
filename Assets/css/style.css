@@ -82,12 +82,50 @@ h1 {
   margin: 0;
   left: 70px; */
 /* } */
-p {
-width: 600px;
-padding: 20px;
-text-align: left;
+.container {
+  line-height: 2em;
+  max-width: 900px;
+  padding: 20px;
+  width: max-content;
+  float: left;
 }
 
+
+#hangman {
+  float: left;
+  border: 400px;
+  width: 50%;
+  padding: 50px;
+
+}
+
+#rpg game {
+  float: left;
+  border: 400px;
+  width: 50%;
+  padding: 50px;
+}
+
+#trivia game { 
+  float: left;
+  border: 400px;
+  width: 50%;
+  padding: 50px;
+} 
+
+#rutgers info widget {
+  float: left;
+  border: 400px;
+  width: 50%;
+  padding: 50px;
+}
+
+#rock paper scissors {
+  clear: both;
+  border: 400px;
+  width: 50%;
+  padding: 20px;
+}
 .footer {
   text-align: center;
   color: #ffffff;
@@ -96,6 +134,4 @@ text-align: left;
   border-top: #4aaaa5 20px solid;
   padding: 50px;
   box-sizing: border-box;
-  
-
 }
