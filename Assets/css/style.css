@@ -21,7 +21,7 @@ h1 {
   color: #4aaaa5;
   font-size: 30px;
   border-bottom: #dddddd solid;
-  padding: 20px;
+  /* padding: 20px; */
   font-family: Georgia, 'Times New Roman', Times, serif;
   clear: both;
  
@@ -84,43 +84,52 @@ h1 {
 /* } */
 .container {
   line-height: 2em;
-  max-width: 900px;
+  max-width: 940px;
   padding: 20px;
   width: max-content;
   float: left;
 }
+/* 
+p {
+  float: left;
+}*/
 
-
-#hangman {
+img {
+  float: left;
+  margin-right: 20px;
+}
+.picture {
+float: left;
   width: 40%;
-  padding: 50px;
+  /* padding: 50px; */
   margin: 20px;
 }
-
-#rpg game {
+/* 
+#rpg_game {
   width: 40%;
   padding: 50px;
   margin: 30px;
 }
 
-#trivia game { 
+#trivia_game { 
   width: 40%;
   padding: 50px;
   margin: 30px;
 } 
 
-#rutgers info widget {
+#rutgers_info {
   width: 40%;
   padding: 50px;
   margin: 30px;
 }
 
-#rock paper scissors {
+#rock_paper {
   width: 40%;
   padding: 20px;
   margin: 30px;
-}
+} */
 .footer {
+  clear: both;
   text-align: center;
   color: #ffffff;
   background-color: #666666;
