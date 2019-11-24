@@ -160,22 +160,30 @@ float: left;
   bottom: -200px; */
 } 
 
-*/
 input, textarea{
- width: 75%;
- border:1px solid #dddddd;
+  width: 96%;
+  border: 1px solid #dddddd;
+  padding: 5px;
  /* border-color: #666666;
  border-width: 1px;
  border-style: solid;  */
 }
+
+
 textarea {
-  height: 100px;
+  height: 300px;
+  width: 900px;
+  border:1px solid #dddddd
 }
 
 button {
   background-color: #4aaaa5;
   border-color: #4aaaa5;
   color: #ffffff;
+  width: 90px;
+  padding: 10px;
+  text-align: center;
+  font-size: 1em;
 }
 .footer {
   clear: both;
