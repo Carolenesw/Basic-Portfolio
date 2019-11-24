@@ -21,7 +21,6 @@ h1 {
   color: #4aaaa5;
   font-size: 30px;
   border-bottom: #dddddd solid;
-  /* padding: 20px; */
   font-family: Georgia, 'Times New Roman', Times, serif;
   clear: both;
  
@@ -127,8 +126,9 @@ float: left;
 
 }
 
+
 #Trivia_game { 
-  clear: both;
+  /* clear: both; */
   /* background-color: #4aaaa5;
   color: #ffffff;
   padding: 20px;
@@ -140,13 +140,13 @@ float: left;
 } 
 
 #Rutgers_info {
-  background-color: #4aaaa5;
+  /* background-color: #4aaaa5;
   color: #ffffff;
   padding: 20px;
   text-align: center;
   width: 210px;
   position: absolute;
-  bottom: -200px;
+  bottom: -200px; */
 
 }
 
@@ -164,9 +164,6 @@ input, textarea{
   width: 96%;
   border: 1px solid #dddddd;
   padding: 5px;
- /* border-color: #666666;
- border-width: 1px;
- border-style: solid;  */
 }
 
 
