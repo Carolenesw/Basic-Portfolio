@@ -1,166 +1,95 @@
+body{
+  margin: 0;
+  background-color:#cccccc;
+}
+.content-container{
+  width: 960px;
+  margin:0 auto;
+}
 header {
+  background-color: #fff;
+}
+header .content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+header h1 {
   background-color: #4aaaa5;
-  border-color: #cccccc;
-  border: 20px;
-  padding: 40px;
-  margin-top: 30px;
-  margin-left: 200px;
-  margin-bottom: 0;
-  color: #ffffff;
-  width: 35%;
+  color:#fff;
   font-size: 40px;
   font-family: 'Calistoga', cursive;
-  font: bolder;
+  padding: 10px;
+  margin:0;
 }
-
-/* the margins for my header does not work properly  */
-
-h1 {
-  color: #4aaaa5;
-  font-size: 30px;
-  border-bottom: #dddddd solid;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  clear: both;
- 
-}
-
 .navbar {
   list-style: none;
-  margin: 0;
-  margin-top: 0;
-  padding: 0;
   background: #ffffff;
-  border-radius: 5px;
-  overflow: auto;
-
 }
-
 .navbar li {
   float: right;
 }
-
 .navbar li a {
-  display: block;
   text-decoration: none;
   padding: 15px 20px;
   color: #cccccc;
 }
-
 .navbar li a:hover {
   background-color: cadetblue;
   color: #ffffff;
 }
-
 #body {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: #ffffff;
-  border: solid #dddddd 400px;
-  width: 940px;
-  height: 1500px;
-  padding: 20px;
-  margin-right: 100px;
-  margin-right: 100px;
-  
- /* I am unable to get the main section of my pages to fit properly in the center of the page as the the instruction and its width   */
-
+  margin: 20px 0px
 }
-
-.container {
-  line-height: 2em;
-  max-width: 940px;
-  padding: 20px;
-  width: max-content;
-  float: left;
+#body .content-container {
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
 }
-
-img {
+.profile-pic {
   float: left;
   margin-right: 20px;
 }
 .picture {
-float: left;
-  width: 40%;
-  margin: 20px;
+  width: 250px;
+  margin: 20px 20px 0 0;
+  float:left;
+  position: relative;
 }
-
 .caption {
-  background-color: #4AAAA5;
-  color: #FFFFFF;
+  background-color: #4aaaa5;
+  box-sizing: border-box;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 20px
+}
+#rpg {
+  background-color: #4aaaa5;
+  color: #ffffff;
   padding: 20px;
   text-align: center;
   width: 210px;
   position: absolute;
   bottom: -195px;
-
-/* .captioned {
-  background-color: #4aaaa5;
-  color: #ffffff;
-  padding: 20px;
-  text-align: center;
-  width: 210px;
-  position: absolute;
-  bottom: -195px; */
 }
-
-.rpg {
-  /* background-color: #4aaaa5;
-  color: #ffffff;
-  padding: 20px;
-  text-align: center;
-  width: 210px;
-  position: absolute;
-  bottom: -195px; */
-
+.clearfix{
+  clear:both;
 }
-
-
-.Trivia_game { 
-  /* clear: both; */
-  /* background-color: #4aaaa5;
-  color: #ffffff;
-  padding: 20px;
-  text-align: center;
-  width: 210px;
-  position: absolute;
-  bottom: -200px; */
-
-} 
-
-.Rutgers_info {
-  /* background-color: #4aaaa5;
-  color: #ffffff;
-  padding: 20px;
-  text-align: center;
-  width: 210px;
-  position: absolute;
-  bottom: -200px; */
-
-}
-
-.rock {
-  /* background-color: #4aaaa5;
-  color: #ffffff;
-  padding: 20px;
-  text-align: center;
-  width: 210px;
-  position: absolute;
-  bottom: -200px; */
-} 
- 
-/* Despite the ID's having the same elements only the first two were able to float according to the styling requirement */
-
 input, textarea{
   width: 96%;
   border: 1px solid #dddddd;
   padding: 5px;
 }
-
 textarea {
   height: 300px;
   width: 900px;
   border:1px solid #dddddd
 }
-
 button {
   background-color: #4aaaa5;
   border-color: #4aaaa5;
@@ -176,10 +105,7 @@ button {
   color: #ffffff;
   background-color: #666666;
   height: 50px;
-  margin-top: -50px;
   border-top: #4aaaa5 8px solid;
   padding: 50px;
   box-sizing: border-box;
 }
-
-/* The footer does not work as per the styling requirement, it does not fit propetly. I am also unable to get the copyright image at the buttom of the page. 
