@@ -47,6 +47,7 @@ header h1 {
   background-color: #fff;
   padding: 10px;
   box-sizing: border-box;
+  text-align: justify;
 }
 .profile-pic {
   float: left;
@@ -102,11 +103,13 @@ button {
 }
 .footer {
   clear: both;
+  justify-content: space-between;
   text-align: center;
   color: #ffffff;
   background-color: #666666;
-  height: 50px;
+  height: 20px;
   border-top: lightpink 8px solid;
   padding: 50px;
-  box-sizing: border-box;
+  font-size: 13px;
+  
 }
